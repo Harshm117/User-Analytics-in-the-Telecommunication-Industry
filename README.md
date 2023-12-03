@@ -86,8 +86,11 @@ Assuming that the satisfaction of a user is dependent on user engagement and exp
 
 Based on the engagement analysis + the experience analysis you conducted above,
 Task 4. 1 - Write a Python program to assign:
+
 a. engagement score to each user. Consider the engagement score as the Euclidean distance between the user data point & the less engaged cluster (use the first clustering for this) (Euclidean Distance)
+
 b. experience score for each user. Consider the experience score as the Euclidean distance between the user data point & the worst experience cluster. 
+
 Task 4.2 - Consider the average of both engagement & experience scores as  the satisfaction score & report the top 10 satisfied customer
 
 Task 4.3 - Build a regression model of your choice to predict the satisfaction score of a customer.
