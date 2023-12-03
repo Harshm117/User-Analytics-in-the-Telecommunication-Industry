@@ -86,13 +86,18 @@ Assuming that the satisfaction of a user is dependent on user engagement and exp
 
 Based on the engagement analysis + the experience analysis you conducted above,
 Task 4. 1 - Write a Python program to assign:
-engagement score to each user. Consider the engagement score as the Euclidean distance between the user data point & the less engaged cluster (use the first clustering for this) (Euclidean Distance)
-experience score for each user. Consider the experience score as the Euclidean distance between the user data point & the worst experience cluster. 
-Task 4.2 - Consider the average of both engagement & experience scores as  the satisfaction score & report the top 10 satisfied customer 
-Task 4.3 - Build a regression model of your choice to predict the satisfaction score of a customer. 
+a. engagement score to each user. Consider the engagement score as the Euclidean distance between the user data point & the less engaged cluster (use the first clustering for this) (Euclidean Distance)
+b. experience score for each user. Consider the experience score as the Euclidean distance between the user data point & the worst experience cluster. 
+Task 4.2 - Consider the average of both engagement & experience scores as  the satisfaction score & report the top 10 satisfied customer
+
+Task 4.3 - Build a regression model of your choice to predict the satisfaction score of a customer.
+
 Task 4.4 - Run a k-means (k=2) on the engagement & the experience score. 
+
 Task 4.5 - Aggregate the average satisfaction & experience score per cluster. 
+
 Task 4.6 - Export your final table containing all user id + engagement, experience & satisfaction scores in your local MySQL database. Report a screenshot of a select query output on the exported table. 
+
 Task 4.7 Model deployment tracking- deploy the model and monitor your model. Here you can use Docker or other MlOps tools which can help you to track your model’s change.  Your model tracking report includes code version, start and end time, source, parameters, metrics (loss convergence) and artefacts or any output file regarding each specific run. (CSV file, screenshot)
 
 
